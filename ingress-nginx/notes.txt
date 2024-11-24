@@ -1,0 +1,6 @@
+k edit deployments ingress-nginx-controller -n ingress-nginx
+
+/replicas 
+
+spec:
+  replicas: 3
