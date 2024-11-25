@@ -1,3 +1,5 @@
+# building on the work of giants, see: https://wiki.alpinelinux.org/wiki/K8s
+
 cat << EOF > /etc/apk/repositories
 http://dl-cdn.alpinelinux.org/alpine/v3.20/main
 http://dl-cdn.alpinelinux.org/alpine/v3.20/community
