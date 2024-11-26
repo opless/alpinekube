@@ -5,7 +5,7 @@ Inspired from various things/by various people:
 * Alpine linux (which is systemd-free, hurrah!) 
 * This very helpful guide: https://wiki.alpinelinux.org/wiki/K8s
 * Annoyance of very little in the way of decent examples in the documentation
-* Being akward and wanting to learn by breaking things immediately and learning how to fix them, becoming an 'expert' in the process
+* Being awkward and wanting to learn by breaking things immediately and learning how to fix them, becoming an 'expert' in the process
 * An old collegue who wanted some help with openshift
 * A very good friend who keeps trying to employ me.
 * A couple of friends at ~~RedHat~~ IBM who have/had had to endure openshift
