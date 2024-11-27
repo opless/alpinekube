@@ -19,7 +19,7 @@ Firstly, I suggest you don't. It's geared up to **MY** setup and needs, and not 
 
 As an aid memoire for me on how to set things up, as kubernetes is awfully complicated and terribly documented
 
-You'd be better off with doing this on the master node:
+** Assuming a contemporary systemd system ** you'd be better off with doing this on the master node:
 
 ```console
 # curl -sfL https://get.k3s.io | sh -
