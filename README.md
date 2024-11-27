@@ -19,7 +19,24 @@ Firstly, I suggest you don't. It's geared up to **MY** setup and needs, and not 
 
 As an aid memoire for me on how to set things up, as kubernetes is awfully complicated and terribly documented
 
-## Okay, so let me at it ...
+You'd be better off with doing this on the master node:
+
+```console
+# curl -sfL https://get.k3s.io | sh -
+# export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+```
+... and remember to add that in your .profile as appropriate and adding /usr/local/bin into your path too maybe ...
+
+Then doing:
+```console
+# echo 'curl -sfL https://get.k3s.io | K3S_URL=https://'`hostname`':6443 K3S_TOKEN='`cat /var/lib/rancher/k3s/server/node-token`' sh -'
+```
+
+... and copy/pasting the result on your worker nodes
+
+Because someone else did all the hard work!
+
+## Okay, okay, I don't want the easy way or minikube; so let me at it ...
 
 Sure, but remember **HERE BE DRAGONS**
 
